@@ -34,6 +34,22 @@ The app brings story creation, automatic checks and parent review into one workf
 5. **Let the parent decide:** After the required checks pass, the parent can **Save Book**, **Request Changes** or **Reject Draft**.
 6. **Keep the approved version:** Saving adds the story to the library and enables PDF download. Changes require fresh checks and approval.
 
+Story App - 
+
+<img width="692" height="906" alt="image" src="https://github.com/user-attachments/assets/3a6ad8cc-89ec-429e-9073-7c5d9879ebd9" />
+<img width="706" height="911" alt="image" src="https://github.com/user-attachments/assets/88aba990-15e9-45c6-8947-51fd7c3ca2a0" />
+<img width="897" height="911" alt="image" src="https://github.com/user-attachments/assets/e9cb5085-dd35-496e-a2af-747f5f82053e" />
+<img width="896" height="627" alt="image" src="https://github.com/user-attachments/assets/30370c47-b3ce-4a53-ae2a-54ef6f722d66" />
+
+Business Analytics/Admin Dashboard - 
+
+<img width="1712" height="902" alt="image" src="https://github.com/user-attachments/assets/f0782245-2fc5-4c77-9b05-4072acdd767c" />
+<img width="1852" height="907" alt="image" src="https://github.com/user-attachments/assets/429eae96-34b2-40e2-bbdb-daeade204c38" />
+<img width="1855" height="900" alt="image" src="https://github.com/user-attachments/assets/e490a750-d8b5-42e6-a922-fe2a9e9b9823" />
+<img width="1852" height="902" alt="image" src="https://github.com/user-attachments/assets/be5b65bb-b35c-435c-aa6c-6ecb9bf5d17b" />
+<img width="1861" height="900" alt="image" src="https://github.com/user-attachments/assets/8b2f7b49-f473-45a6-b784-212796594647" />
+<img width="1876" height="827" alt="image" src="https://github.com/user-attachments/assets/f60d3630-ec19-4d4f-8ed1-a500fe41e57b" />
+
 ### Current Scope
 
 | Option | Available now |
