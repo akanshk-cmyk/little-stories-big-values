@@ -11,7 +11,8 @@ Parents can choose between:
 - **Original teaching-inspired fiction:** Create an imagined story from a description, using their own characters or an available character.
 - **Adapted retelling:** Create a child-friendly adaptation of a supported Ramayan episode using source passages.
 
-Child-Friendly Story Adaptation: Avoids violent, frightening and harmful content while preserving the meaning of supported source stories. Independent quality and safety checks run before parent review.
+
+**Child - Friendly Story Adaptation:**  Avoids violent, frightening and harmful content while preserving the meaning of supported source stories. Independent quality and safety checks run before parent review.
 
 Parents review the story before saving it. Saved stories appear in **My Storybooks** and can be downloaded as a text-only PDF.
 
