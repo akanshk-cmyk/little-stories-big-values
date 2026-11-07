@@ -11,6 +11,8 @@ Parents can choose between:
 - **Original teaching-inspired fiction:** Create an imagined story from a description, using their own characters or an available character.
 - **Adapted retelling:** Create a child-friendly adaptation of a supported Ramayan episode using source passages.
 
+Child-Friendly Story Adaptation: Avoids violent, frightening and harmful content while preserving the meaning of supported source stories. Independent quality and safety checks run before parent review.
+
 Parents review the story before saving it. Saved stories appear in **My Storybooks** and can be downloaded as a text-only PDF.
 
 The current app runs locally. Broader AI quality evaluation is still pending.
@@ -19,11 +21,17 @@ The current app runs locally. Broader AI quality evaluation is still pending.
 
 ## Problem Statement
 
-Finding a story that fits a child's age, interests and mood can take time. Parents may also want the story to explain a value through simple, relatable actions.
+Finding or rewriting a story that matches a child's age, interests and mood can take time. Parents may also want it to demonstrate kindness, sharing or patience—or explain a cultural story without changing its meaning.
 
 Cultural stories need additional care. Simplifying a traditional episode should preserve its meaning, while newly imagined events should be clearly identified as fiction. A fluent AI response alone does not establish that a story is accurate or appropriate.
 
 ## Our Solution
+
+### Where an AI Agent Can Help
+
+The AI helps create a story from the parent's description or adapt a supported source passage. A separate reviewer checks the draft against the request and content rules. The parent keeps the final decision: request changes, save the story or reject it.
+
+The goal is to reduce preparation effort and provide a starting point for meaningful shared reading.
 
 The app brings story creation, automatic checks and parent review into one workflow:
 
