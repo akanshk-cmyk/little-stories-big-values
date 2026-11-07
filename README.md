@@ -41,6 +41,28 @@ Story App -
 <img width="897" height="911" alt="image" src="https://github.com/user-attachments/assets/e9cb5085-dd35-496e-a2af-747f5f82053e" />
 <img width="896" height="627" alt="image" src="https://github.com/user-attachments/assets/30370c47-b3ce-4a53-ae2a-54ef6f722d66" />
 
+### Parent and Family Profiles
+
+A family space where parents manage child profiles, personalise stories and keep their favourite books.
+
+| Feature | Description |
+|---|---|
+| **Registration and Sign-In** | Create a parent account and access the family’s stories. |
+| **Parent Profile** | View and update the parent’s name and optional email address. |
+| **Child Profile Setup** | Add a child’s name and age to personalise story requests. |
+| **Multiple Child Profiles** | Maintain separate reader profiles for children in the family. |
+| **Reader Selection** | Select a child and apply their age to the story request. |
+| **Edit or Delete Child Profile** | Update or remove a child’s profile while keeping saved books available. |
+| **Story Preferences** | Choose the story type, characters, learning value, mood and topics to avoid. |
+| **Parent Review** | Review the draft, request changes, save it or reject it. |
+| **Family Story Library** | Reopen approved stories and download their PDFs. |
+| **Story Credits** | View starter credits and simulated weekly-pass availability. |
+| **Account Security** | Change the password and optionally create a one-time recovery code. |
+
+<img width="722" height="887" alt="image" src="https://github.com/user-attachments/assets/b8c8bb45-00e6-427f-94bb-3de4aa5aa500" />
+<img width="752" height="736" alt="image" src="https://github.com/user-attachments/assets/08123d02-5d28-40f7-8ccc-2ec80df1dd91" />
+
+
 ### Admin Dashboard and Business Analytics
 
 The dashboard helps explain how the product could monitor usage, reading activity and business performance.
