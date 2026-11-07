@@ -4,7 +4,7 @@
 
 ## App Overview
 
-Little Stories, Big Values is a parent-guided AI storytelling app for families with children aged 3–8. It helps parents create gentle English stories about values such as kindness, sharing, patience and honesty. It helps parents prepare personalized stories for children aged 3–8, turning everyday moments into opportunities for shared reading and conversations about values.
+Little Stories, Big Values is a parent-guided AI storytelling app for families with children aged 3–8. It helps parents create gentle English stories about values such as kindness, sharing, patience and honesty for developing emotional intelligence (EQ). It helps parents prepare personalized stories for children aged 3–8, turning everyday moments into opportunities for shared reading and conversations about values.
 
 Parents can choose between:
 
