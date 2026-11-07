@@ -41,7 +41,27 @@ Story App -
 <img width="897" height="911" alt="image" src="https://github.com/user-attachments/assets/e9cb5085-dd35-496e-a2af-747f5f82053e" />
 <img width="896" height="627" alt="image" src="https://github.com/user-attachments/assets/30370c47-b3ce-4a53-ae2a-54ef6f722d66" />
 
-Business Analytics/Admin Dashboard - 
+### Admin Dashboard and Business Analytics
+
+The dashboard helps explain how the product could monitor usage, reading activity and business performance.
+
+| Dashboard area | What it shows |
+|---|---|
+| **Overview** | Account activity, story completion, credit usage and simulated business totals |
+| **Parent Profiles** | Browser-local account summaries and related activity |
+| **Story Analytics** | Story categories, characters, completion patterns and reading activity |
+| **User Activity** | A timeline of captured local actions, such as opening a story or selecting a page |
+| **Conversion Funnel** | Movement from account creation to story use and simulated checkout |
+| **Payments and Credits** | Simulated weekly-pass purchases, successes, failures and credit consumption |
+| **AI Operations** | Illustrative agent activity, status, duration, retries and cost information |
+| **Retention** | Return-activity summaries when enough observation time is available |
+| **Analytics Settings** | Local event-capture controls and visibility settings |
+
+The interface supports date filters, data-source selection and CSV report downloads. Reports distinguish simulated historical records from captured browser-local activity.
+
+**Current limitation:** These dashboard figures are not verified live customer metrics, real revenue or live AI-quality results. The dashboard is not yet connected to the protected backend summary.
+
+Admin Dashboard and Business Analytics - 
 
 <img width="1712" height="902" alt="image" src="https://github.com/user-attachments/assets/f0782245-2fc5-4c77-9b05-4072acdd767c" />
 <img width="1852" height="907" alt="image" src="https://github.com/user-attachments/assets/429eae96-34b2-40e2-bbdb-daeade204c38" />
