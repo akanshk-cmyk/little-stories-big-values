@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Source-only snapshot; private runtime records excluded.",
+  "files": 226,
+  "private_configuration_values_checked": 5,
+  "unresolved_findings": [],
+  "invalid_security_test_urls_reviewed": 2,
+  "excluded": [
+    ".local and populated env files",
+    "accounts and databases",
+    "private source PDFs",
+    "saved user books",
+    "provider logs and traces",
+    "browser profiles and screenshots",
+    "historical reports and evaluation artifacts",
+    "pitch/export packages"
+  ],
+  "limitations": "Pattern/exact-value scanning and curated file selection reduce risk; they do not prove absence of every confidential detail. Synthetic test accounts are not working credentials.",
+  "verification": {
+    "focused_tests_run": 56,
+    "passed": 55,
+    "optional_pdf_skipped": 1,
+    "paid_model_calls": 0
+  }
+}

@@ -1,0 +1,14 @@
+# Stage 2 data contracts. Verified with Pydantic 2.14.1 on Python 3.14.8.
+pydantic==2.14.1
+# PDF rendering uses websocket-client; transport and local HTTP service use stdlib.
+websocket-client>=1.8,<2
+# Validate uploaded static banner files (no image generation/editing).
+Pillow>=11,<13
+# Extract text from uploaded/public-link PDFs. No OCR or image generation.
+pypdf>=6,<7
+# Maintained public CA roots for verified HTTPS source imports.
+certifi>=2025
+httpx>=0.28,<0.29
+# Stage 3 isolated workflow skeleton; no live adapters enabled.
+langgraph==1.2.19
+langgraph-checkpoint-sqlite==3.1.3

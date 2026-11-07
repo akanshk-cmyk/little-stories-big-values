@@ -1,0 +1,42 @@
+﻿/* Complete-book review only; Story Studio layout remains unchanged. */
+#managed-book #managed-pages{display:block;width:100%;border:1px solid var(--line);border-radius:18px;background:white;margin:24px 0}#managed-book .managed-actions{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}#managed-book textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;font:inherit}#managed-book audio{width:100%}#managed-book details{padding:18px;border:1px solid var(--line);border-radius:16px;margin:20px 0}#managed-book #managed-refresh{margin:20px 12px 0 0}@media(max-width:700px){#managed-book #managed-pages{padding:16px}}
+
+#managed-book #managed-pages{padding:24px}#managed-book #managed-pages section{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:center;border-top:1px solid var(--line);padding:28px 0}#managed-book #managed-pages img{width:100%;max-height:360px;object-fit:contain;border-radius:16px}#managed-book #managed-pages footer{grid-column:1/-1;font-size:12px;color:var(--muted)}#managed-book #managed-pages p,#managed-book #managed-pages li{overflow-wrap:anywhere}#managed-book #managed-pages aside{font-size:12px;background:var(--lavender);padding:16px;border-radius:16px}@media(max-width:700px){#managed-book #managed-pages section{grid-template-columns:1fr}}
+/* Account access must remain reachable when the compact header hides profile details. */
+@media(max-width:800px){.topbar .parent-profile{display:flex;align-items:center;gap:8px}.topbar .parent-profile .demo-family-pill{display:none}}
+#managed-sign-in:not([hidden]){display:inline-flex;margin:0 0 16px}
+/* The account entry remains visible while scrolling and wraps safely on tablets. */
+body>.topbar{position:sticky;top:0;z-index:50;background:var(--ivory);height:auto;min-height:100px;padding-top:12px;padding-bottom:12px}
+#main-sign-in{white-space:nowrap;min-width:100px;flex-shrink:0}
+body>.topbar .parent-profile{display:flex;flex-shrink:0}
+@media(max-width:1100px){body>.topbar{flex-wrap:wrap;gap:12px}body>.topbar nav[aria-label="Main navigation"]{order:3;width:100%;justify-content:center;flex-wrap:wrap;gap:12px 24px}body>.topbar .parent-profile{margin-left:auto}}
+@media(max-width:540px){body>.topbar .parent-profile{width:auto;margin-left:0;max-width:100%}body>.topbar{padding:12px;justify-content:center}body>.topbar nav[aria-label="Main navigation"]{gap:8px 16px}}
+.managed-sharing{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+.managed-sharing p{flex-basis:100%;margin:0 0 4px;color:var(--muted);font-size:14px}
+.managed-sharing .button:disabled{opacity:.75;cursor:not-allowed;box-shadow:none}
+.managed-sharing .button{display:inline-flex;align-items:center;gap:10px}
+.managed-sharing svg{width:24px;height:24px;flex-shrink:0}
+.managed-sharing .button:hover{filter:brightness(.96)}
+.managed-sharing .button:focus-visible{outline:3px solid var(--purple);outline-offset:3px}
+/* The signed-in library uses account records; retain browser samples separately. */
+.managed-account-mode #shelf > :not(#managed-library){display:none}
+.managed-account-mode .demo-global-bar{display:none}
+.managed-library-card{margin:18px 0}
+.rama-picture-tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:12px 0}
+.rama-picture-tools p{flex-basis:100%;margin:0}
+body[data-local-ramayan="true"] #managed-book #managed-pages section{grid-template-columns:minmax(0,1fr)}
+@media(max-width:800px){.topbar .parent-profile .demo-family-pill{display:inline-block;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:middle}}
+@media(max-width:540px){.topbar .parent-profile{width:100%;justify-content:center}}
+.managed-sharing [data-platform="facebook"]{color:#2457a7;background:#edf3ff}
+.managed-sharing [data-platform="instagram"]{color:#a03679;background:#fff0f7}
+.managed-sharing [data-platform="whatsapp"]{color:#26724b;background:#ecf8ef}
+.managed-sharing [data-platform="youtube"]{color:#b13a3a;background:#fff0ee}
+.mobile-downloads{margin:18px auto 0;text-align:center}
+.mobile-downloads>p{font-size:11px;line-height:1.4;margin:0 0 9px;color:var(--muted)}
+.mobile-store-badges{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px}
+.mobile-store-badge{display:inline-flex;align-items:center;justify-content:flex-start;gap:7px;width:144px;height:44px;min-height:44px;padding:5px 9px;border:1px solid #555;border-radius:7px;background:#050505;color:white;text-align:left;line-height:1.1}
+.mobile-store-badge:disabled{opacity:1;cursor:default}
+.mobile-store-badge svg{width:22px;height:26px;flex-shrink:0}
+.mobile-store-badge span{display:block;color:white}
+.mobile-store-badge small{display:block;font:9px/1.2 'Segoe UI',sans-serif;letter-spacing:.15px;color:white}
+.mobile-store-badge strong{display:block;font:500 17px/1.2 'Segoe UI',sans-serif;white-space:nowrap;letter-spacing:-.2px;color:white}

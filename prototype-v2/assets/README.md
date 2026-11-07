@@ -1,0 +1,11 @@
+# Story Garden banner - existing static decoration
+
+The festival extension also includes `festivals.svg` (original code-native vector symbols) and `festivals.json` (source-linked cultural catalog). `scripts/build_festival_assets.py` rebuilds these static assets and the browser catalog. They do not use an image-generation model. Festival notes require parent/human cultural review and are not pre-approved traditional retellings. Sources and scope are documented in `docs/indian-festivals.md`.
+
+Current release is text-first. AI image generation is a future enhancement. This previously created decorative asset is retained locally and triggers no image API calls or new generation charges. It is not required page artwork for text-only approval or PDF export.
+
+`story-garden.png` was created with the built-in image generation tool for the prototype library banner. It is decorative concept artwork, not an illustration generated for a parent-approved book. Visually inspected for a gentle fictional scene; no human cultural approval is implied.
+
+Generation prompt:
+
+Use case: illustration-story. Asset type: landscape hero banner for a premium parent-guided children's picture-book library, no text. Beautiful richly detailed hand-painted magical watercolor storybook illustration. A fictional five-year-old Indian girl Mira with warm brown skin, dark wavy hair, lavender flower hairclip and lavender dress sits on a flower-lined garden path reading an open picture book beside a small brown bird with a cream chest. A friendly rabbit sits nearby. A huge protective flowering tree, softly glowing lanterns hanging from branches, abundant pink lotus-like garden flowers, butterflies, gentle fireflies, distant rolling emerald hills. Moonlight blue and lavender twilight, warm golden light spilling from the open book, rose pink flowers, lush emerald foliage, warm ivory highlights. Gentle enchanting reassuring atmosphere, expressive kind faces, premium illustrated picture-book quality, painterly paper texture, cinematic layered composition. Main characters in right half, softly atmospheric uncluttered left third for separate HTML heading. Wide landscape composition. No deities, no religious episode, no weapons, no threatening imagery, no embedded letters, words, logos or watermark. Original aesthetic, do not imitate any specific artist.

@@ -1,0 +1,65 @@
+{
+  "version": "storybook-release-qa-v2",
+  "authority": "User selected the existing Storybook Guide and five PASS/FAIL dimensions; this is their explicit application review configuration, not the separate pending evaluation dataset.",
+  "dimensions": [
+    "Factual Correctness",
+    "Clarity",
+    "Value / Insight",
+    "Engagement",
+    "Tone Fit"
+  ],
+  "rules": [
+    {
+      "id": "evidence_grounding",
+      "instruction": "Every checkable factual/operational claim must be supported by supplied evidence. Missing evidence is unresolved, not PASS. Never invent sources, quotes, review records, IDs, files or successful operations."
+    },
+    {
+      "id": "request_fulfillment",
+      "instruction": "Check requested age, language, characters and required participation, learning objective, mood, duration/length targets, exclusions and format. Flag mismatches; do not silently substitute. Estimates and example limitations must remain explicit."
+    },
+    {
+      "id": "classification_and_sources",
+      "instruction": "Exactly one correct story classification. Invented sacred-figure scenes/dialogue must be explicitly imagined original fiction, never scripture. Traditional/adapted retellings require eligible reviewed source evidence. A URL alone is not source-content evidence."
+    },
+    {
+      "id": "gentle_content",
+      "instruction": "No violence, frightening events, threats, punishment, shame, disparagement, unsafe imitation or pressure. Holi needs consent and safe choices without harmless-colour guarantees. Diwali must not instruct children to handle fireworks, matches or flames."
+    },
+    {
+      "id": "child_clarity_and_engagement",
+      "instruction": "Concrete age-appropriate language, clear progression and small cast, specific opening, gentle challenge and satisfying ending. Respect any prohibition on questions/CTA; include reflection only when permitted."
+    },
+    {
+      "id": "learning_and_tone",
+      "instruction": "Demonstrate one main value through concrete actions rather than sermons. Warm, respectful tone; culturally sensitive portrayal; no unsupported learning/behavior guarantees."
+    },
+    {
+      "id": "cultural_variation",
+      "instruction": "Respect distinct versions and regional practices. Do not universalize one family's custom, conflate festivals, or invent scripture. Automated checks and parent review are not expert cultural approval."
+    },
+    {
+      "id": "version_and_asset_truth",
+      "instruction": "Approval belongs to trusted application logic for an exact immutable text/script/settings version. Reviewer cannot approve, publish or export. Check operational claims against actual approval/asset inventory; do not claim narration, PDF or measured audio duration without evidence."
+    },
+    {
+      "id": "text_only_scope",
+      "instruction": "Current books and PDFs are text-only. Do not require generated illustrations or image references to pass current scope. Static selection art is not generated book artwork."
+    },
+    {
+      "id": "narrative_continuity",
+      "instruction": "Review all ordered pages for consistent characters, identifying details, objects, settings, actions and emotional progression. Events must connect coherently."
+    },
+    {
+      "id": "required_sections",
+      "instruction": "Require six ordered pages, title, one moral and parent discussion question. Festival stories also require an eligible evidence-supported cultural fact. Check confirmed topic and cast participation."
+    },
+    {
+      "id": "english_release",
+      "instruction": "Current release uses English text, sources and narration. Hindi conversion and image generation are future enhancements, never requirements to pass."
+    },
+    {
+      "id": "duration_alignment",
+      "instruction": "Check requested story duration against a text target of 100 words/minute within 25 percent across the six story pages. Label this an estimate, not measured audio. A prewritten-example disclaimer does not waive the requested target."
+    }
+  ]
+}

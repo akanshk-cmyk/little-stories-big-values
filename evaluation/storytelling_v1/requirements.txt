@@ -1,0 +1,2 @@
+# Workbook generation only. Model/application paths use the existing backend.
+openpyxl>=3.1,<4
