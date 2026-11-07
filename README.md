@@ -4,7 +4,7 @@
 
 ## App Overview
 
-Little Stories, Big Values is a parent-guided AI storytelling app for families with children aged 3–8. It helps parents create gentle English stories about values such as kindness, sharing, patience and honesty.
+Little Stories, Big Values is a parent-guided AI storytelling app for families with children aged 3–8. It helps parents create gentle English stories about values such as kindness, sharing, patience and honesty. It helps parents prepare personalized stories for children aged 3–8, turning everyday moments into opportunities for shared reading and conversations about values.
 
 Parents can choose between:
 
@@ -33,6 +33,47 @@ The app brings story creation, automatic checks and parent review into one workf
 4. **Review automatically:** A separate AI reviewer checks the draft against the request, quality rules and child-safety requirements. Correctable issues can return to the writer within a bounded correction limit.
 5. **Let the parent decide:** After the required checks pass, the parent can **Save Book**, **Request Changes** or **Reject Draft**.
 6. **Keep the approved version:** Saving adds the story to the library and enables PDF download. Changes require fresh checks and approval.
+
+### Who It Serves
+
+The primary persona is a **parent or caregiver creating stories for a child aged 3–8**. The adult operates the app; the child joins the reading experience.
+
+| Audience | Main need | Current or future role |
+|---|---|---|
+| **Parents and caregivers** | Create suitable stories, review them and read together | Current primary users and potential buyers |
+| **Children aged 3–8** | Enjoy stories, imagine and discuss feelings and values | Current reading participants; parent-guided |
+| **Grandparents** | Share stories and cultural connections | Can join the current caregiver-led experience |
+| **Teachers and schools** | Support classroom reading and values discussions | Future audience; dedicated tools needed |
+| **Aftercare and childcare providers** | Prepare stories for small-group reading | Future audience |
+| **Children’s content creators** | Prepare original scripts and printables | Future audience; publishing rights and workflows needed |
+| **Libraries and cultural centres** | Offer intergenerational and culturally relevant reading | Potential community partners |
+| **Bilingual families** | Read in their preferred languages | Future language expansion; Hindi is not enabled |
+
+#### Product Priority
+
+Establish usefulness for families first. Then validate educator, community and creator needs before building dedicated experiences.
+
+*Future audiences are opportunities—not confirmed customers or partnerships.*
+
+### Key Storytelling Features
+
+**Create → Check → Parent Review → Save & Read Together**
+
+| Feature | Why it matters |
+|---|---|
+| **Two Story-Creation Modes** | Create original fiction from a parent’s description or adapt a supported Ramayan episode. |
+| **Values Through Storytelling** | Explore kindness, sharing, patience and honesty through relatable characters and actions. Available values depend on the story mode. |
+| **Age and Mood Personalisation** | Match the request to the child’s age and choose calm bedtime or gentle daytime storytelling. |
+| **Topics to Avoid** | Specify additional subjects the parent does not want included. |
+| **Independent Quality and Safety Review** | Check the draft separately from writing before offering it for parent approval. Automated checks are not a safety guarantee. |
+| **Clear Story Classification** | Distinguish imagined stories from source-based adaptations, with source notes where applicable. |
+| **Parent Discussion Question** | Give families a starting point for talking about the story’s choices and values. |
+| **Read Together or Print** | Save approved stories and download PDFs for reading away from the screen. |
+| **Approval of the Exact Version** | Require fresh checks and approval after edits before the revised story can be exported. |
+
+### Future Enhancements
+
+Narration, Hindi stories, illustrated books using reviewed scene assets, sharing on social media and broader document retrieval remain future enhancements for the current parent-facing flow. Runtime AI image generation.
 
 Story App - 
 
